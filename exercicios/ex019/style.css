@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(181, 219, 139);
+}
+
+h1{
+    color: rgb(79, 163, 45);
+}
+h1#pip{
+    text-align: center;
+    background-color: darkkhaki;
+    text-shadow: 1px 1px 2px black;
+}
+h1#aa{
+    color: darkgreen;
+}
+
+h2{
+    color: darkolivegreen;
+}
+
+p{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    text-indent: 10px;
+}
+
+.basico{
+    color: darkslategray;
+    font-weight: bold;
+}
+
+.avançado{
+    color: crimson;
+    font-weight: bold;
+}
+
+.titulo{
+    color: rgb(21, 134, 21);
+}

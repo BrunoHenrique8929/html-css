@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area de login</title>
+    <script src="login.js"></script>
+    <style>
+        body{
+            background-color: rgb(29, 110, 233);
+        }
+        h1{
+            text-align: center;
+            color: rgb(56, 56, 187);
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Faça seu login ou registre-se aqui</h1>
+        <nav>
+            <h2>Registrar</h2>
+            <form action="">
+                <p>Se registre em nosso site.</p>
+                      <label for="fname">Digite seu nome:</label>
+                      <input type="text" id="fname" name="fname">
+                      <br>
+                           <p>Qual é o seu sexo?</p>
+                           <input type="checkbox" id="masculino" name="masculino" value="homem">
+                           <label for="masculino">Sou do  sexo Masculino</label>
+                           <br>
+                           <input type="checkbox" id="feminino" name="feminino" value="mulher">
+                           <label for="feminino">Sou do sexo Feminino</label>
+                           <br>
+                           <br>
+                           <label for="criarsenha">Crie uma senha:</label>
+                           <input type="password" id="criarsenha" name="criarsenha">
+                           
+                       </form>
+            </form>
+        </nav>
+        <nav>
+            <h2>Fazer login</h2>
+            <p>se você já está registrado,<a href="areadelogin.html"> faça seu login aqui.</a></p>
+        </nav>
+    </header>
+</body>
+</html>

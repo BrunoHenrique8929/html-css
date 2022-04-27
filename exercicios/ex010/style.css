@@ -1,0 +1,24 @@
+
+body{
+    color: aliceblue;
+    background-color: rgb(27, 26, 26);
+    
+}
+
+h2{
+    color: azure;
+
+}
+h1#gerso{
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+div{
+    box-shadow: black;
+}
+li{
+    color: azure;
+}
+h1#gerso{
+    color: azure;
+}

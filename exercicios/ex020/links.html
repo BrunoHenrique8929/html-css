@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+
+        a{
+            color: cornflowerblue;
+            text-decoration: none;
+        }
+
+        a:visited{
+            color: crimson; 
+        }
+        
+        a:hover{
+            text-decoration: underline;
+            color: darkblue;
+        }
+
+        a:active{
+            color: darkred;
+        }
+
+        div{
+        background-image: linear-gradient(to right, #62BBC1 10%, #EC058E);
+        width: 400px;
+        padding-bottom: 10px;
+        padding-top: 1px;
+        padding-left: 10px;
+        border-radius: 1.5%;
+        height: 160px;
+        }
+
+        .listas:hover{
+            background-color: aliceblue;
+            width: 200px;
+            color: black;
+        }
+        .listas{
+            color:aliceblue;
+        }
+
+        .listas:active{
+            background-color: lightskyblue;
+            color:rgb(82, 76, 76);
+        }
+
+        h1#h{
+           text-align: center;
+        }
+        .listas::after{
+
+        }
+
+    </style>
+</head>
+<body>
+ <h1>personalizando links</h1>
+ <ul>
+     <a href="https://github.com/gustavoguanabara" target="_blank">
+         <li>Repositorio github</li>
+     </a>
+     <a href="https://youtube.com/cursoemvideo/" target="_blank">
+         <li>canal no youtube</li>
+     </a>
+     <a href="https://www.cursoemvideo.com" target="_blank">
+         <li>site do curso  em video</li>
+     </a>
+ </ul>
+ <div>
+     <h1 id="h">Coisas</h1>
+      <ul class="ol">
+       <li class="listas">Menu</li>
+       <li class="listas">Informações</li>
+       <li class="listas">analises</li>
+       <li class="listas">extras</li>
+      </ul class="ol">
+ </div>
+</body>
+</html>

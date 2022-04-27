@@ -1,0 +1,19 @@
+body{
+    background-color: goldenrod;
+    color: black;
+}
+h1{
+   color: purple;
+}
+
+div#area{
+    background-color: antiquewhite;
+    color: black;
+}
+div#gertrudes{
+   background-color: antiquewhite;
+}
+img{
+    border-radius: 50px;
+    width: 400px;
+}

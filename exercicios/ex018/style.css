@@ -1,0 +1,22 @@
+@font-face {
+    font-family:'halloween' ;
+    src: url('fontes/halloween\ black.otf') format('opentype'), url('fontes/halloween\ black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    /*Tipos de formatos
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - Truetype-aat (Apple Advanced typography)
+    - svg
+    */
+}
+
+body{
+    font-family: 'arial';
+}
+h1{
+    font-family: 'halloween', Times, serif;
+    font-size: 3em;
+}

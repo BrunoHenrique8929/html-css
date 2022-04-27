@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gloriosas imagens dinâmicas</h1>
+    <p>Tenta abrir isso aí em outros dispositivos ou diminui o tamanho do seu navegador</p>
+    <!--exemplo de uso da tag picture-->
+    <!--seempre colocar as imagens em ordem (pequena,média,Grande)-->
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+     <img src="Imagens/foto-g.png" alt="foto-g">
+    </picture>
+    <!--o tamanho da imagem precisa de uma margem, entao colocar 50px (tipo 1000 virar 1050)-->
+      <!--bem obvio mas colocar o nome das fotos no srcset e o tipo no type -->
+    <!--mudar o width de min para max-->
+     <!--usar source media type-->
+     <div>
+         <h2>Ceu azul bonito olha que bonito</h2>
+             <picture>
+            <source media="(max-width: 750px )" srcset="imagens/ceu-pequeno.jpg" type="image/jpg">
+            <source media="(max-width: 1050px )" srcset="imagens/ceu-medio.jpg" type="image/jpg">
+             <img src="Imagens/ceu-grande.jpg" alt="">
+             </picture>
+     </div>
+    <p><a href="pag2.html" >Clique aqui</a> para abrir a segunda aba</p>
+    <!--Link interno com caminho-->
+<p><a href="noticias/pag3.html">Ir para a página 3 aqu</a>i</p>
+<!--só usar ctrl + espaço e ir na pasta onde esta a pagina-->
+<h2>Reproduzindo audios áudios</h2>
+<p>Vou aprender a reproduzir audios em HTML5</p>
+<audio src="midia/guanacast-33.mp3" controls></audio>
+<audio src="midia/Sailing - Telecasted.mp3" controls></audio>
+<!--adicionar o parâmetro controls pra criar os controles do audiio no site-->
+<audio preload="metadata" controls> <!--ta anotado como funciona no caderno-->
+    <!--Criar a tag audio e dentro dela colocar source:src-->
+    <!--A ordem dos arquivos é importante, o navegador vai tentar carregar primeiro o que estiver na frennte e aí tentar os outros-->
+    <source src="midia/Sailing - Telecasted.mp3" type="audio/mpeg">
+    <source src="midia/Sailing - Telecasted.ogg" type="audio/ogg">
+    <source src="midia/Sailing - Telecasted.wav" type="audio/wav">
+    <p>infelizmente seu navegador não consegue reproduzir audio</p>
+    <a href="midia/Sailing - Telecasted.mp3">Clique aqui para baixar o arquivo MP3</a>
+    <!--Alguns navegadores não são totalmente compativeis com mp3, entao é importante ter outros formatos de audio-->
+</audio>
+
+
+
+</body>
+
+</html>

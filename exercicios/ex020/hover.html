@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(211, 226, 154);
+        }
+        div#aa > p{
+            display: none;
+        }
+        div#aa:hover > p{
+            display: block;
+            color: black;
+        }
+        div#aa:hover{
+            color: darkkhaki;
+        
+        }
+        div#gg:hover{
+            background-image: linear-gradient(to right, #59656F, #1D1E2C);
+            color: aliceblue;
+        }
+        div#gg > p{
+            display: none;
+        }
+
+        div#gg:hover > p{
+        display: block;
+        color: rgb(226, 228, 236);
+        
+        }
+    </style>
+</head>
+<body>
+<h1>exemplo de hover</h1>
+<p>passa o mouse no texto abaixo</p>
+<div id="aa">
+    passe,passe o mouse
+    <p>ó o easter egg</p>
+</div>
+<br>
+<div id="gg">
+    Menu
+    <p>Comidas</p>
+    <p>Bebidas</p>
+    <p>Bananas importadas</p>
+</div>
+</body>
+</html>
